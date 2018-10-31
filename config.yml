@@ -1,0 +1,6 @@
+nomenclature:
+  name: gif
+  verboseName: GIF
+baseUrls:
+  http: gif/
+  isApi: true
