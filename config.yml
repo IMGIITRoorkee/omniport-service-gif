@@ -1,6 +1,7 @@
 nomenclature:
-  name: gif
+  name: easter_eggs
   verboseName: GIF
 baseUrls:
   http: gif/
-  isApi: true
+  static: gif/
+isApi: true
