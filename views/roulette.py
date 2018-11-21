@@ -17,7 +17,7 @@ class Roulette(GenericAPIView):
         """
 
         response = {
-            'count': 12
+            'count': 15
         }
 
         # HTTP_418_IM_A_TEAPOT not present in DRF, so using integer status code
