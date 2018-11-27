@@ -1,6 +1,7 @@
 nomenclature:
-  name: easter_eggs
+  name: gif
   verboseName: GIF
+description: Provides GIFs to be used as easter eggs
 baseUrls:
   http: gif/
   static: gif/
