@@ -1,6 +1,3 @@
-from django.apps import AppConfig
+from configuration.utils.app_config_class import get_app_config_class
 
-
-class GifConfig(AppConfig):
-    name = 'gif'
-    verbose_name = 'GIF'
+Config = get_app_config_class(__file__)
