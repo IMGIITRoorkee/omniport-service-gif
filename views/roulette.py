@@ -16,9 +16,9 @@ class Roulette(GenericAPIView):
         :return: the response for request
         """
 
-        response = {
+        ಠ_ಠ = {
             'count': 15
         }
 
         # HTTP_418_IM_A_TEAPOT not present in DRF, so using integer status code
-        return Response(response, status=418)
+        return Response(ಠ_ಠ, status=418)
