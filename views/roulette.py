@@ -1,11 +1,14 @@
 from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
+from rest_framework.permissions import AllowAny
 
 
 class Roulette(GenericAPIView):
     """
     Return the URL to a random GIF from the assortment of provided GIFs
     """
+
+    permission_classes = [AllowAny]
 
     def get(self, request, *args, **kwargs):
         """
